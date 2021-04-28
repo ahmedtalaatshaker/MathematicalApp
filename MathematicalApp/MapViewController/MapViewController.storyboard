@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Google Map View Controller-->
+        <scene sceneID="4pU-Ah-yPU">
+            <objects>
+                <viewController storyboardIdentifier="GoogleMapViewController" id="qfq-pI-4o0" customClass="GoogleMapViewController" customModule="MathematicalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8LZ-Nk-3xp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rdg-dk-rnF" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="44" width="414" height="792"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CmC-QO-hXX">
+                                <rect key="frame" x="0.0" y="836" width="414" height="26"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icLocation" translatesAutoresizingMaskIntoConstraints="NO" id="LmK-J5-bUw">
+                                        <rect key="frame" x="8" y="5.5" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="YqV-BX-bCe"/>
+                                            <constraint firstAttribute="height" constant="15" id="vBZ-Df-wUA"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGh-kM-WwE">
+                                        <rect key="frame" x="31" y="8" width="375" height="10"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="0.39259178319999999" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="cGh-kM-WwE" firstAttribute="leading" secondItem="LmK-J5-bUw" secondAttribute="trailing" constant="8" id="0ER-cp-T2S"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="26" id="DT6-1M-Mfo"/>
+                                    <constraint firstAttribute="trailing" secondItem="cGh-kM-WwE" secondAttribute="trailing" constant="8" id="FJF-8y-QrH"/>
+                                    <constraint firstItem="cGh-kM-WwE" firstAttribute="top" secondItem="CmC-QO-hXX" secondAttribute="top" constant="8" id="LQ0-M4-ILw"/>
+                                    <constraint firstItem="LmK-J5-bUw" firstAttribute="leading" secondItem="CmC-QO-hXX" secondAttribute="leading" constant="8" id="NKT-kk-I9Q"/>
+                                    <constraint firstAttribute="bottom" secondItem="cGh-kM-WwE" secondAttribute="bottom" constant="8" id="Qma-c2-JxB"/>
+                                    <constraint firstItem="LmK-J5-bUw" firstAttribute="centerY" secondItem="CmC-QO-hXX" secondAttribute="centerY" id="apl-mx-q12"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bnR-BY-jJW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Rdg-dk-rnF" firstAttribute="leading" secondItem="bnR-BY-jJW" secondAttribute="leading" id="WLk-pp-oKz"/>
+                            <constraint firstItem="CmC-QO-hXX" firstAttribute="trailing" secondItem="bnR-BY-jJW" secondAttribute="trailing" id="Yba-e1-gac"/>
+                            <constraint firstItem="bnR-BY-jJW" firstAttribute="bottom" secondItem="CmC-QO-hXX" secondAttribute="bottom" id="cOr-Z9-Nbq"/>
+                            <constraint firstItem="Rdg-dk-rnF" firstAttribute="trailing" secondItem="bnR-BY-jJW" secondAttribute="trailing" id="edk-7B-RsX"/>
+                            <constraint firstItem="Rdg-dk-rnF" firstAttribute="top" secondItem="bnR-BY-jJW" secondAttribute="top" id="j2B-OS-K2g"/>
+                            <constraint firstItem="CmC-QO-hXX" firstAttribute="top" secondItem="Rdg-dk-rnF" secondAttribute="bottom" id="lzJ-PW-pfb"/>
+                            <constraint firstItem="CmC-QO-hXX" firstAttribute="leading" secondItem="bnR-BY-jJW" secondAttribute="leading" id="zOZ-HE-tBg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="currentLocationLabel" destination="cGh-kM-WwE" id="seY-4n-bwp"/>
+                        <outlet property="mapView" destination="Rdg-dk-rnF" id="tgW-zd-ueT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vEi-KU-Iuz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-141" y="147"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icLocation" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

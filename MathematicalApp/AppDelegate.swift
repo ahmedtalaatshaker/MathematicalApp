@@ -7,7 +7,8 @@
 
 import UIKit
 import CoreData
-
+import GoogleMaps
+import GooglePlaces
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,6 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        realmDB.shared.deleteAllPendingEquations()
+        GMSPlacesClient.provideAPIKey(apiKey.key.rawValue)
+        GMSServices.provideAPIKey(apiKey.key.rawValue)
+
+        let prod = Prod()
+        prod.prod()
+        
+        var nsDictionary: NSDictionary?
+        if let path = Bundle.main.path(forResource: "Info", ofType: "plist") {
+           nsDictionary = NSDictionary(contentsOfFile: path)
+            print("ENDPOINT_URL : \(nsDictionary?["ENDPOINT_URL"])")
+        }
         return true
     }
 

@@ -26,7 +26,36 @@ class MathematicalAppUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+        
+        let equationHereTextField = app.textFields["Equation Here"]
+        let key1 = app.keyboards.keys["1"]
+        let key2 = app.keyboards.keys["2"]
+        let key3 = app.keyboards.keys["3"]
+        let key4 = app.keyboards.keys["4"]
+        let key5 = app.keyboards.keys["5"]
+        let key6 = app.keyboards.keys["6"]
+        let key7 = app.keyboards.keys["7"]
+        let key_ = app.keyboards.keys["-"]
 
+
+        let calculateStaticText = app.buttons["Calculate"].staticTexts["Calculate"]
+        let dalayTextField = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .textField).element(boundBy: 1)
+        
+        let hideKeyboard = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
+
+        
+
+        equationHereTextField.tap()
+        key1.tap()
+        key2.tap()
+        key_.tap()
+        
+        dalayTextField.tap()
+        key6.tap()
+        
+        hideKeyboard.tap()
+        calculateStaticText.tap()
+        
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

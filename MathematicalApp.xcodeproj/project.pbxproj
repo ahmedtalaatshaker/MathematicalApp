@@ -3,19 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CDECB012B4DBD9B87802AB9 /* Pods_MathematicalAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4719EA168B26D89473B7C08 /* Pods_MathematicalAppTests.framework */; };
+		5512B08F2685F5B6B9BB6AA3 /* Pods_MathematicalApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFD2AE35D616A3E4C7ACAD2 /* Pods_MathematicalApp.framework */; };
+		5A71B7EED9B07E8034C6D6BC /* Pods_MathematicalApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFD2AE35D616A3E4C7ACAD2 /* Pods_MathematicalApp.framework */; };
+		6E2706F413B8F4F5340AE132 /* Pods_MathematicalApp_MathematicalAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD18BC18619B124BBFC3C57 /* Pods_MathematicalApp_MathematicalAppUITests.framework */; };
+		A6524EDAD3224E1FCD57AD2A /* Pods_MathematicalAppQA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A003E88E263546D9ED224A1 /* Pods_MathematicalAppQA.framework */; };
 		D00448152638062C004B6D0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00448142638062C004B6D0E /* AppDelegate.swift */; };
 		D00448172638062C004B6D0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00448162638062C004B6D0E /* SceneDelegate.swift */; };
-		D00448192638062C004B6D0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00448182638062C004B6D0E /* ViewController.swift */; };
-		D004481C2638062C004B6D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D004481A2638062C004B6D0E /* Main.storyboard */; };
 		D004481F2638062C004B6D0E /* MathematicalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D004481D2638062C004B6D0E /* MathematicalApp.xcdatamodeld */; };
 		D00448212638062D004B6D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00448202638062D004B6D0E /* Assets.xcassets */; };
 		D00448242638062D004B6D0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00448222638062D004B6D0E /* LaunchScreen.storyboard */; };
 		D004482F2638062E004B6D0E /* MathematicalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004482E2638062E004B6D0E /* MathematicalAppTests.swift */; };
 		D004483A2638062E004B6D0E /* MathematicalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00448392638062E004B6D0E /* MathematicalAppUITests.swift */; };
+		D0044855263806D8004B6D0E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0044854263806D8004B6D0E /* MainViewController.swift */; };
+		D004486026380797004B6D0E /* BasicContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004485A26380794004B6D0E /* BasicContent.swift */; };
+		D004486126380797004B6D0E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004485B26380795004B6D0E /* TabBarViewController.swift */; };
+		D004486326380797004B6D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D004485D26380796004B6D0E /* Main.storyboard */; };
+		D004486426380797004B6D0E /* BouncesContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004485E26380796004B6D0E /* BouncesContent.swift */; };
+		D004486526380797004B6D0E /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004485F26380797004B6D0E /* NavigationController.swift */; };
+		D004487026380889004B6D0E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004486F26380889004B6D0E /* HomeViewController.swift */; };
+		D0044878263808A2004B6D0E /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0044877263808A2004B6D0E /* HomeViewController.storyboard */; };
+		D004487D263808C5004B6D0E /* ResultsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D004487C263808C5004B6D0E /* ResultsViewController.storyboard */; };
+		D0044882263808D6004B6D0E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0044881263808D6004B6D0E /* ResultsViewController.swift */; };
+		D0044887263808E8004B6D0E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0044886263808E8004B6D0E /* MapViewController.swift */; };
+		D004488C263808F0004B6D0E /* MapViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D004488B263808F0004B6D0E /* MapViewController.storyboard */; };
+		D004489126380EF9004B6D0E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004489026380EF9004B6D0E /* Helpers.swift */; };
+		D00448962638214E004B6D0E /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00448952638214E004B6D0E /* Calculate.swift */; };
+		D004489B263838BA004B6D0E /* DBHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004489A263838BA004B6D0E /* DBHandler.swift */; };
+		D02316782638948F00003927 /* BasicContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004485A26380794004B6D0E /* BasicContent.swift */; };
+		D02316792638948F00003927 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004489026380EF9004B6D0E /* Helpers.swift */; };
+		D023167A2638948F00003927 /* BouncesContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004485E26380796004B6D0E /* BouncesContent.swift */; };
+		D023167B2638948F00003927 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00448952638214E004B6D0E /* Calculate.swift */; };
+		D023167D2638948F00003927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00448142638062C004B6D0E /* AppDelegate.swift */; };
+		D023167E2638948F00003927 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00448162638062C004B6D0E /* SceneDelegate.swift */; };
+		D02316802638948F00003927 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0044886263808E8004B6D0E /* MapViewController.swift */; };
+		D02316812638948F00003927 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004485B26380795004B6D0E /* TabBarViewController.swift */; };
+		D02316822638948F00003927 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004486F26380889004B6D0E /* HomeViewController.swift */; };
+		D02316832638948F00003927 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004485F26380797004B6D0E /* NavigationController.swift */; };
+		D02316842638948F00003927 /* PendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F71352638797400B9C094 /* PendingViewController.swift */; };
+		D02316862638948F00003927 /* MathematicalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D004481D2638062C004B6D0E /* MathematicalApp.xcdatamodeld */; };
+		D02316872638948F00003927 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05E1D3E26384A8A00A82A3F /* ResultView.swift */; };
+		D02316882638948F00003927 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0044854263806D8004B6D0E /* MainViewController.swift */; };
+		D02316892638948F00003927 /* DBHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004489A263838BA004B6D0E /* DBHandler.swift */; };
+		D023168A2638948F00003927 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0044881263808D6004B6D0E /* ResultsViewController.swift */; };
+		D023168E2638948F00003927 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0044877263808A2004B6D0E /* HomeViewController.storyboard */; };
+		D023168F2638948F00003927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00448222638062D004B6D0E /* LaunchScreen.storyboard */; };
+		D02316902638948F00003927 /* MapViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D004488B263808F0004B6D0E /* MapViewController.storyboard */; };
+		D02316912638948F00003927 /* ResultsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D004487C263808C5004B6D0E /* ResultsViewController.storyboard */; };
+		D02316922638948F00003927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00448202638062D004B6D0E /* Assets.xcassets */; };
+		D02316932638948F00003927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D004485D26380796004B6D0E /* Main.storyboard */; };
+		D02316942638948F00003927 /* PendingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04F71302638795D00B9C094 /* PendingViewController.storyboard */; };
+		D02316952638948F00003927 /* ResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05E1D4626384A9900A82A3F /* ResultView.xib */; };
+		D02316B02638952900003927 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02316A6263894F900003927 /* Constants.swift */; };
+		D02316BC2638956D00003927 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02316BB2638956D00003927 /* Constants.swift */; };
+		D04F71312638795D00B9C094 /* PendingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04F71302638795D00B9C094 /* PendingViewController.storyboard */; };
+		D04F71362638797400B9C094 /* PendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F71352638797400B9C094 /* PendingViewController.swift */; };
+		D05E1D3F26384A8A00A82A3F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05E1D3E26384A8A00A82A3F /* ResultView.swift */; };
+		D05E1D4726384A9900A82A3F /* ResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05E1D4626384A9900A82A3F /* ResultView.xib */; };
+		D0EA4BA526399BE0006FA001 /* TestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EA4BA426399BE0006FA001 /* TestCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +85,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1240746FF093AAC333B7733E /* Pods-MathematicalAppTests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalAppTests.qa.xcconfig"; path = "Target Support Files/Pods-MathematicalAppTests/Pods-MathematicalAppTests.qa.xcconfig"; sourceTree = "<group>"; };
+		2616A77ACB14B0BCC87B6BAD /* Pods-MathematicalAppQA.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalAppQA.qa.xcconfig"; path = "Target Support Files/Pods-MathematicalAppQA/Pods-MathematicalAppQA.qa.xcconfig"; sourceTree = "<group>"; };
+		2F6B61FBF499FFA8B55AACB4 /* Pods-MathematicalApp-MathematicalAppUITests.prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalApp-MathematicalAppUITests.prod.xcconfig"; path = "Target Support Files/Pods-MathematicalApp-MathematicalAppUITests/Pods-MathematicalApp-MathematicalAppUITests.prod.xcconfig"; sourceTree = "<group>"; };
+		645ABF34E3659E240F635765 /* Pods-MathematicalApp-MathematicalAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalApp-MathematicalAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MathematicalApp-MathematicalAppUITests/Pods-MathematicalApp-MathematicalAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68BAE38CBA94DE85EDD7F2E0 /* Pods-MathematicalAppTests.prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalAppTests.prod.xcconfig"; path = "Target Support Files/Pods-MathematicalAppTests/Pods-MathematicalAppTests.prod.xcconfig"; sourceTree = "<group>"; };
+		6D59CC554AC4FAC05523B901 /* Pods-MathematicalAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MathematicalAppTests/Pods-MathematicalAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		731D3099B1C82F058A1BB670 /* Pods-MathematicalApp-MathematicalAppUITests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalApp-MathematicalAppUITests.qa.xcconfig"; path = "Target Support Files/Pods-MathematicalApp-MathematicalAppUITests/Pods-MathematicalApp-MathematicalAppUITests.qa.xcconfig"; sourceTree = "<group>"; };
+		7AFD2AE35D616A3E4C7ACAD2 /* Pods_MathematicalApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathematicalApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9616CB2284A493236EA0AE3F /* Pods-MathematicalApp.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalApp.qa.xcconfig"; path = "Target Support Files/Pods-MathematicalApp/Pods-MathematicalApp.qa.xcconfig"; sourceTree = "<group>"; };
+		978EBC6CAFFDBBCFDB7F269B /* Pods-MathematicalApp.prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalApp.prod.xcconfig"; path = "Target Support Files/Pods-MathematicalApp/Pods-MathematicalApp.prod.xcconfig"; sourceTree = "<group>"; };
+		9A003E88E263546D9ED224A1 /* Pods_MathematicalAppQA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathematicalAppQA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD18BC18619B124BBFC3C57 /* Pods_MathematicalApp_MathematicalAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathematicalApp_MathematicalAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00448112638062C004B6D0E /* MathematicalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathematicalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00448142638062C004B6D0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D00448162638062C004B6D0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D00448182638062C004B6D0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D004481B2638062C004B6D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D004481E2638062C004B6D0E /* MathematicalApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MathematicalApp.xcdatamodel; sourceTree = "<group>"; };
 		D00448202638062D004B6D0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D00448232638062D004B6D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +110,34 @@
 		D00448352638062E004B6D0E /* MathematicalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathematicalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00448392638062E004B6D0E /* MathematicalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathematicalAppUITests.swift; sourceTree = "<group>"; };
 		D004483B2638062E004B6D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0044854263806D8004B6D0E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D004485A26380794004B6D0E /* BasicContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicContent.swift; sourceTree = "<group>"; };
+		D004485B26380795004B6D0E /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D004485D26380796004B6D0E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D004485E26380796004B6D0E /* BouncesContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncesContent.swift; sourceTree = "<group>"; };
+		D004485F26380797004B6D0E /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		D004486F26380889004B6D0E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D0044877263808A2004B6D0E /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		D004487C263808C5004B6D0E /* ResultsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResultsViewController.storyboard; sourceTree = "<group>"; };
+		D0044881263808D6004B6D0E /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		D0044886263808E8004B6D0E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D004488B263808F0004B6D0E /* MapViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapViewController.storyboard; sourceTree = "<group>"; };
+		D004489026380EF9004B6D0E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		D00448952638214E004B6D0E /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
+		D004489A263838BA004B6D0E /* DBHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHandler.swift; sourceTree = "<group>"; };
+		D023169B2638948F00003927 /* MathematicalAppQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathematicalAppQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02316A02638949100003927 /* MathematicalApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MathematicalApp copy-Info.plist"; path = "/Volumes/talaat/Generics/MathematicalApp/MathematicalApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		D02316A6263894F900003927 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D02316BB2638956D00003927 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D04F71302638795D00B9C094 /* PendingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PendingViewController.storyboard; sourceTree = "<group>"; };
+		D04F71352638797400B9C094 /* PendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingViewController.swift; sourceTree = "<group>"; };
+		D05E1D3E26384A8A00A82A3F /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		D05E1D4626384A9900A82A3F /* ResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultView.xib; sourceTree = "<group>"; };
+		D0EA4BA426399BE0006FA001 /* TestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCases.swift; sourceTree = "<group>"; };
+		D4719EA168B26D89473B7C08 /* Pods_MathematicalAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathematicalAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3003532CE4CA5D45B10C40 /* Pods-MathematicalAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalAppTests.release.xcconfig"; path = "Target Support Files/Pods-MathematicalAppTests/Pods-MathematicalAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		FCC749F6D303B5BFD0FB36ED /* Pods-MathematicalApp-MathematicalAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalApp-MathematicalAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MathematicalApp-MathematicalAppUITests/Pods-MathematicalApp-MathematicalAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD5877302C68D2F0DCBCB613 /* Pods-MathematicalAppQA.prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathematicalAppQA.prod.xcconfig"; path = "Target Support Files/Pods-MathematicalAppQA/Pods-MathematicalAppQA.prod.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +145,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A71B7EED9B07E8034C6D6BC /* Pods_MathematicalApp.framework in Frameworks */,
+				5512B08F2685F5B6B9BB6AA3 /* Pods_MathematicalApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CDECB012B4DBD9B87802AB9 /* Pods_MathematicalAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +162,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2706F413B8F4F5340AE132 /* Pods_MathematicalApp_MathematicalAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D023168B2638948F00003927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6524EDAD3224E1FCD57AD2A /* Pods_MathematicalAppQA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DF481C708F0BAC95AB0BA67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AFD2AE35D616A3E4C7ACAD2 /* Pods_MathematicalApp.framework */,
+				CBD18BC18619B124BBFC3C57 /* Pods_MathematicalApp_MathematicalAppUITests.framework */,
+				D4719EA168B26D89473B7C08 /* Pods_MathematicalAppTests.framework */,
+				9A003E88E263546D9ED224A1 /* Pods_MathematicalAppQA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		862B005D60AA8D4B67058130 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				645ABF34E3659E240F635765 /* Pods-MathematicalApp-MathematicalAppUITests.debug.xcconfig */,
+				FCC749F6D303B5BFD0FB36ED /* Pods-MathematicalApp-MathematicalAppUITests.release.xcconfig */,
+				6D59CC554AC4FAC05523B901 /* Pods-MathematicalAppTests.debug.xcconfig */,
+				DB3003532CE4CA5D45B10C40 /* Pods-MathematicalAppTests.release.xcconfig */,
+				9616CB2284A493236EA0AE3F /* Pods-MathematicalApp.qa.xcconfig */,
+				978EBC6CAFFDBBCFDB7F269B /* Pods-MathematicalApp.prod.xcconfig */,
+				731D3099B1C82F058A1BB670 /* Pods-MathematicalApp-MathematicalAppUITests.qa.xcconfig */,
+				2F6B61FBF499FFA8B55AACB4 /* Pods-MathematicalApp-MathematicalAppUITests.prod.xcconfig */,
+				1240746FF093AAC333B7733E /* Pods-MathematicalAppTests.qa.xcconfig */,
+				68BAE38CBA94DE85EDD7F2E0 /* Pods-MathematicalAppTests.prod.xcconfig */,
+				2616A77ACB14B0BCC87B6BAD /* Pods-MathematicalAppQA.qa.xcconfig */,
+				FD5877302C68D2F0DCBCB613 /* Pods-MathematicalAppQA.prod.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D00448082638062C004B6D0E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +214,9 @@
 				D004482D2638062E004B6D0E /* MathematicalAppTests */,
 				D00448382638062E004B6D0E /* MathematicalAppUITests */,
 				D00448122638062C004B6D0E /* Products */,
+				862B005D60AA8D4B67058130 /* Pods */,
+				7DF481C708F0BAC95AB0BA67 /* Frameworks */,
+				D02316A02638949100003927 /* MathematicalApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +226,7 @@
 				D00448112638062C004B6D0E /* MathematicalApp.app */,
 				D004482A2638062E004B6D0E /* MathematicalAppTests.xctest */,
 				D00448352638062E004B6D0E /* MathematicalAppUITests.xctest */,
+				D023169B2638948F00003927 /* MathematicalAppQA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +234,15 @@
 		D00448132638062C004B6D0E /* MathematicalApp */ = {
 			isa = PBXGroup;
 			children = (
+				D02316BA2638955900003927 /* Prod */,
+				D02316B92638955100003927 /* QA */,
+				D02316A5263894D000003927 /* Helpers */,
+				D004486E26380873004B6D0E /* MapViewController */,
+				D004486D26380864004B6D0E /* ResultsViewController */,
+				D004486C2638084B004B6D0E /* HomeViewController */,
+				D004485926380724004B6D0E /* TabBar */,
 				D00448142638062C004B6D0E /* AppDelegate.swift */,
 				D00448162638062C004B6D0E /* SceneDelegate.swift */,
-				D00448182638062C004B6D0E /* ViewController.swift */,
-				D004481A2638062C004B6D0E /* Main.storyboard */,
 				D00448202638062D004B6D0E /* Assets.xcassets */,
 				D00448222638062D004B6D0E /* LaunchScreen.storyboard */,
 				D00448252638062D004B6D0E /* Info.plist */,
@@ -131,6 +269,93 @@
 			path = MathematicalAppUITests;
 			sourceTree = "<group>";
 		};
+		D004485926380724004B6D0E /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D004485A26380794004B6D0E /* BasicContent.swift */,
+				D004485E26380796004B6D0E /* BouncesContent.swift */,
+				D004485D26380796004B6D0E /* Main.storyboard */,
+				D004485F26380797004B6D0E /* NavigationController.swift */,
+				D004485B26380795004B6D0E /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D004486C2638084B004B6D0E /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D004486F26380889004B6D0E /* HomeViewController.swift */,
+				D0044877263808A2004B6D0E /* HomeViewController.storyboard */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		D004486D26380864004B6D0E /* ResultsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D04F712F2638793E00B9C094 /* PendingViewController */,
+				D05E1D3D26384A7500A82A3F /* ResultView */,
+				D004487C263808C5004B6D0E /* ResultsViewController.storyboard */,
+				D0044881263808D6004B6D0E /* ResultsViewController.swift */,
+			);
+			path = ResultsViewController;
+			sourceTree = "<group>";
+		};
+		D004486E26380873004B6D0E /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0044886263808E8004B6D0E /* MapViewController.swift */,
+				D004488B263808F0004B6D0E /* MapViewController.storyboard */,
+			);
+			path = MapViewController;
+			sourceTree = "<group>";
+		};
+		D02316A5263894D000003927 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D0044854263806D8004B6D0E /* MainViewController.swift */,
+				D004489026380EF9004B6D0E /* Helpers.swift */,
+				D00448952638214E004B6D0E /* Calculate.swift */,
+				D004489A263838BA004B6D0E /* DBHandler.swift */,
+				D0EA4BA426399BE0006FA001 /* TestCases.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D02316B92638955100003927 /* QA */ = {
+			isa = PBXGroup;
+			children = (
+				D02316A6263894F900003927 /* Constants.swift */,
+			);
+			path = QA;
+			sourceTree = "<group>";
+		};
+		D02316BA2638955900003927 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				D02316BB2638956D00003927 /* Constants.swift */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		D04F712F2638793E00B9C094 /* PendingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D04F71302638795D00B9C094 /* PendingViewController.storyboard */,
+				D04F71352638797400B9C094 /* PendingViewController.swift */,
+			);
+			path = PendingViewController;
+			sourceTree = "<group>";
+		};
+		D05E1D3D26384A7500A82A3F /* ResultView */ = {
+			isa = PBXGroup;
+			children = (
+				D05E1D3E26384A8A00A82A3F /* ResultView.swift */,
+				D05E1D4626384A9900A82A3F /* ResultView.xib */,
+			);
+			path = ResultView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +363,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D004483E2638062E004B6D0E /* Build configuration list for PBXNativeTarget "MathematicalApp" */;
 			buildPhases = (
+				803CEBA51A2BDFDC8C6E73DB /* [CP] Check Pods Manifest.lock */,
 				D004480D2638062C004B6D0E /* Sources */,
 				D004480E2638062C004B6D0E /* Frameworks */,
 				D004480F2638062C004B6D0E /* Resources */,
+				E31A96537C8D62F1C069B7ED /* [CP] Embed Pods Frameworks */,
+				C6E5FF31DD33EC15CE460493 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +383,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D00448412638062E004B6D0E /* Build configuration list for PBXNativeTarget "MathematicalAppTests" */;
 			buildPhases = (
+				DEEBC1A9EA340E935BD27FD5 /* [CP] Check Pods Manifest.lock */,
 				D00448262638062E004B6D0E /* Sources */,
 				D00448272638062E004B6D0E /* Frameworks */,
 				D00448282638062E004B6D0E /* Resources */,
@@ -173,9 +402,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D00448442638062E004B6D0E /* Build configuration list for PBXNativeTarget "MathematicalAppUITests" */;
 			buildPhases = (
+				F740F212F5296B8DF67FC811 /* [CP] Check Pods Manifest.lock */,
 				D00448312638062E004B6D0E /* Sources */,
 				D00448322638062E004B6D0E /* Frameworks */,
 				D00448332638062E004B6D0E /* Resources */,
+				EAEBA2FEEB0FC46CAED0E587 /* [CP] Embed Pods Frameworks */,
+				12D5F215739D7147F6313E1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,6 +418,26 @@
 			productName = MathematicalAppUITests;
 			productReference = D00448352638062E004B6D0E /* MathematicalAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D02316752638948F00003927 /* MathematicalAppQA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02316982638948F00003927 /* Build configuration list for PBXNativeTarget "MathematicalAppQA" */;
+			buildPhases = (
+				2BC290511C0B0E8054B3A8A0 /* [CP] Check Pods Manifest.lock */,
+				D02316772638948F00003927 /* Sources */,
+				D023168B2638948F00003927 /* Frameworks */,
+				D023168D2638948F00003927 /* Resources */,
+				A10A6B73C441D693243663CC /* [CP] Embed Pods Frameworks */,
+				F467F4B36EBF6844B528A531 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathematicalAppQA;
+			productName = MathematicalApp;
+			productReference = D023169B2638948F00003927 /* MathematicalAppQA.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -223,6 +475,7 @@
 			projectRoot = "";
 			targets = (
 				D00448102638062C004B6D0E /* MathematicalApp */,
+				D02316752638948F00003927 /* MathematicalAppQA */,
 				D00448292638062E004B6D0E /* MathematicalAppTests */,
 				D00448342638062E004B6D0E /* MathematicalAppUITests */,
 			);
@@ -234,9 +487,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0044878263808A2004B6D0E /* HomeViewController.storyboard in Resources */,
 				D00448242638062D004B6D0E /* LaunchScreen.storyboard in Resources */,
+				D004488C263808F0004B6D0E /* MapViewController.storyboard in Resources */,
+				D004487D263808C5004B6D0E /* ResultsViewController.storyboard in Resources */,
 				D00448212638062D004B6D0E /* Assets.xcassets in Resources */,
-				D004481C2638062C004B6D0E /* Main.storyboard in Resources */,
+				D004486326380797004B6D0E /* Main.storyboard in Resources */,
+				D04F71312638795D00B9C094 /* PendingViewController.storyboard in Resources */,
+				D05E1D4726384A9900A82A3F /* ResultView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,17 +512,239 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D023168D2638948F00003927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D023168E2638948F00003927 /* HomeViewController.storyboard in Resources */,
+				D023168F2638948F00003927 /* LaunchScreen.storyboard in Resources */,
+				D02316902638948F00003927 /* MapViewController.storyboard in Resources */,
+				D02316912638948F00003927 /* ResultsViewController.storyboard in Resources */,
+				D02316922638948F00003927 /* Assets.xcassets in Resources */,
+				D02316932638948F00003927 /* Main.storyboard in Resources */,
+				D02316942638948F00003927 /* PendingViewController.storyboard in Resources */,
+				D02316952638948F00003927 /* ResultView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12D5F215739D7147F6313E1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp-MathematicalAppUITests/Pods-MathematicalApp-MathematicalAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp-MathematicalAppUITests/Pods-MathematicalApp-MathematicalAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp-MathematicalAppUITests/Pods-MathematicalApp-MathematicalAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BC290511C0B0E8054B3A8A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathematicalAppQA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		803CEBA51A2BDFDC8C6E73DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathematicalApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A10A6B73C441D693243663CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalAppQA/Pods-MathematicalAppQA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalAppQA/Pods-MathematicalAppQA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathematicalAppQA/Pods-MathematicalAppQA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E5FF31DD33EC15CE460493 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp/Pods-MathematicalApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp/Pods-MathematicalApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp/Pods-MathematicalApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEBC1A9EA340E935BD27FD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathematicalAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E31A96537C8D62F1C069B7ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp/Pods-MathematicalApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp/Pods-MathematicalApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp/Pods-MathematicalApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAEBA2FEEB0FC46CAED0E587 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp-MathematicalAppUITests/Pods-MathematicalApp-MathematicalAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp-MathematicalAppUITests/Pods-MathematicalApp-MathematicalAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathematicalApp-MathematicalAppUITests/Pods-MathematicalApp-MathematicalAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F467F4B36EBF6844B528A531 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalAppQA/Pods-MathematicalAppQA-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathematicalAppQA/Pods-MathematicalAppQA-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathematicalAppQA/Pods-MathematicalAppQA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F740F212F5296B8DF67FC811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathematicalApp-MathematicalAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D004480D2638062C004B6D0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00448192638062C004B6D0E /* ViewController.swift in Sources */,
+				D004486026380797004B6D0E /* BasicContent.swift in Sources */,
+				D004489126380EF9004B6D0E /* Helpers.swift in Sources */,
+				D004486426380797004B6D0E /* BouncesContent.swift in Sources */,
+				D00448962638214E004B6D0E /* Calculate.swift in Sources */,
 				D00448152638062C004B6D0E /* AppDelegate.swift in Sources */,
 				D00448172638062C004B6D0E /* SceneDelegate.swift in Sources */,
+				D0044887263808E8004B6D0E /* MapViewController.swift in Sources */,
+				D004486126380797004B6D0E /* TabBarViewController.swift in Sources */,
+				D004487026380889004B6D0E /* HomeViewController.swift in Sources */,
+				D004486526380797004B6D0E /* NavigationController.swift in Sources */,
+				D04F71362638797400B9C094 /* PendingViewController.swift in Sources */,
+				D0EA4BA526399BE0006FA001 /* TestCases.swift in Sources */,
 				D004481F2638062C004B6D0E /* MathematicalApp.xcdatamodeld in Sources */,
+				D02316BC2638956D00003927 /* Constants.swift in Sources */,
+				D05E1D3F26384A8A00A82A3F /* ResultView.swift in Sources */,
+				D0044855263806D8004B6D0E /* MainViewController.swift in Sources */,
+				D004489B263838BA004B6D0E /* DBHandler.swift in Sources */,
+				D0044882263808D6004B6D0E /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +764,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D02316772638948F00003927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02316782638948F00003927 /* BasicContent.swift in Sources */,
+				D02316792638948F00003927 /* Helpers.swift in Sources */,
+				D023167A2638948F00003927 /* BouncesContent.swift in Sources */,
+				D023167B2638948F00003927 /* Calculate.swift in Sources */,
+				D023167D2638948F00003927 /* AppDelegate.swift in Sources */,
+				D023167E2638948F00003927 /* SceneDelegate.swift in Sources */,
+				D02316802638948F00003927 /* MapViewController.swift in Sources */,
+				D02316812638948F00003927 /* TabBarViewController.swift in Sources */,
+				D02316822638948F00003927 /* HomeViewController.swift in Sources */,
+				D02316832638948F00003927 /* NavigationController.swift in Sources */,
+				D02316842638948F00003927 /* PendingViewController.swift in Sources */,
+				D02316862638948F00003927 /* MathematicalApp.xcdatamodeld in Sources */,
+				D02316B02638952900003927 /* Constants.swift in Sources */,
+				D02316872638948F00003927 /* ResultView.swift in Sources */,
+				D02316882638948F00003927 /* MainViewController.swift in Sources */,
+				D02316892638948F00003927 /* DBHandler.swift in Sources */,
+				D023168A2638948F00003927 /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -300,14 +804,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D004481A2638062C004B6D0E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D004481B2638062C004B6D0E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D00448222638062D004B6D0E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -319,7 +815,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D004483C2638062E004B6D0E /* Debug */ = {
+		D004483C2638062E004B6D0E /* QA */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,9 +874,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = QA;
 		};
-		D004483D2638062E004B6D0E /* Release */ = {
+		D004483D2638062E004B6D0E /* Prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -417,6 +913,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -433,15 +930,17 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Prod;
 		};
-		D004483F2638062E004B6D0E /* Debug */ = {
+		D004483F2638062E004B6D0E /* QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9616CB2284A493236EA0AE3F /* Pods-MathematicalApp.qa.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VGZS9T43Q9;
+				ENDPOINT_URL = "QA url";
 				INFOPLIST_FILE = MathematicalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,15 +951,17 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = QA;
 		};
-		D00448402638062E004B6D0E /* Release */ = {
+		D00448402638062E004B6D0E /* Prod */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978EBC6CAFFDBBCFDB7F269B /* Pods-MathematicalApp.prod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VGZS9T43Q9;
+				ENDPOINT_URL = "Prod url";
 				INFOPLIST_FILE = MathematicalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,10 +972,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Prod;
 		};
-		D00448422638062E004B6D0E /* Debug */ = {
+		D00448422638062E004B6D0E /* QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1240746FF093AAC333B7733E /* Pods-MathematicalAppTests.qa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,10 +995,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathematicalApp.app/MathematicalApp";
 			};
-			name = Debug;
+			name = QA;
 		};
-		D00448432638062E004B6D0E /* Release */ = {
+		D00448432638062E004B6D0E /* Prod */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BAE38CBA94DE85EDD7F2E0 /* Pods-MathematicalAppTests.prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,10 +1018,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathematicalApp.app/MathematicalApp";
 			};
-			name = Release;
+			name = Prod;
 		};
-		D00448452638062E004B6D0E /* Debug */ = {
+		D00448452638062E004B6D0E /* QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731D3099B1C82F058A1BB670 /* Pods-MathematicalApp-MathematicalAppUITests.qa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,10 +1039,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MathematicalApp;
 			};
-			name = Debug;
+			name = QA;
 		};
-		D00448462638062E004B6D0E /* Release */ = {
+		D00448462638062E004B6D0E /* Prod */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6B61FBF499FFA8B55AACB4 /* Pods-MathematicalApp-MathematicalAppUITests.prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,7 +1060,51 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MathematicalApp;
 			};
-			name = Release;
+			name = Prod;
+		};
+		D02316992638948F00003927 /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2616A77ACB14B0BCC87B6BAD /* Pods-MathematicalAppQA.qa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGZS9T43Q9;
+				ENDPOINT_URL = "QA url";
+				INFOPLIST_FILE = "MathematicalApp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DigitalWellnez.MathematicalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = QA;
+		};
+		D023169A2638948F00003927 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5877302C68D2F0DCBCB613 /* Pods-MathematicalAppQA.prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGZS9T43Q9;
+				ENDPOINT_URL = "Prod url";
+				INFOPLIST_FILE = "MathematicalApp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DigitalWellnez.MathematicalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Prod;
 		};
 /* End XCBuildConfiguration section */
 
@@ -563,38 +1112,47 @@
 		D004480C2638062C004B6D0E /* Build configuration list for PBXProject "MathematicalApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D004483C2638062E004B6D0E /* Debug */,
-				D004483D2638062E004B6D0E /* Release */,
+				D004483C2638062E004B6D0E /* QA */,
+				D004483D2638062E004B6D0E /* Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Prod;
 		};
 		D004483E2638062E004B6D0E /* Build configuration list for PBXNativeTarget "MathematicalApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D004483F2638062E004B6D0E /* Debug */,
-				D00448402638062E004B6D0E /* Release */,
+				D004483F2638062E004B6D0E /* QA */,
+				D00448402638062E004B6D0E /* Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Prod;
 		};
 		D00448412638062E004B6D0E /* Build configuration list for PBXNativeTarget "MathematicalAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D00448422638062E004B6D0E /* Debug */,
-				D00448432638062E004B6D0E /* Release */,
+				D00448422638062E004B6D0E /* QA */,
+				D00448432638062E004B6D0E /* Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Prod;
 		};
 		D00448442638062E004B6D0E /* Build configuration list for PBXNativeTarget "MathematicalAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D00448452638062E004B6D0E /* Debug */,
-				D00448462638062E004B6D0E /* Release */,
+				D00448452638062E004B6D0E /* QA */,
+				D00448462638062E004B6D0E /* Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Prod;
+		};
+		D02316982638948F00003927 /* Build configuration list for PBXNativeTarget "MathematicalAppQA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02316992638948F00003927 /* QA */,
+				D023169A2638948F00003927 /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Prod;
 		};
 /* End XCConfigurationList section */
 
